@@ -1,6 +1,18 @@
+# Dependencies
 node_modules/
+
+# Production & Deployments
 .vercel/
+
+# Operating System Files
 .DS_Store
 Thumbs.db
-*.log
+Desktop.ini
 
+# Logs & Cache
+*.log
+*.tmp
+
+# IDEs & Editors
+.vscode/
+.idea/
