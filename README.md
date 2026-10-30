@@ -22,28 +22,26 @@ crypto/
 ├── js/
 │   └── script.js                # Core interactive logic, chart renderer, live search, and filters
 │
+├── .gitignore                   # Git ignore patterns
 ├── index.html                   # Main application entry point (double-click to open)
-├── package.json                 # Project configuration & npm scripts
-├── server.js                    # Zero-dependency local Node.js development server
+├── vercel.json                  # Vercel deployment configuration
 └── README.md                    # Project documentation and run guide
 ```
 
 ---
 
-## 🚀 How to Run
+## 🚀 How to Run & Deploy
 
-### Method 1: Direct File (Offline / No Server Required)
+### 1. Run Locally (Offline / No Server Required)
 Simply **double-click** `index.html` or open it with any modern web browser (Google Chrome, Microsoft Edge, Mozilla Firefox, Safari).  
 *No terminal, Node.js, or build commands required!*
 
-### Method 2: Local Development Server
-If you prefer running via HTTP:
+### 2. Deploy to Vercel (Cloud Production)
+In the project directory, run:
 ```bash
-npm start
-# or
-node server.js
+vercel
 ```
-Open **[http://localhost:5173/](http://localhost:5173/)** in your browser.
+Or push to GitHub and import the repository on [vercel.com](https://vercel.com).
 
 ---
 
